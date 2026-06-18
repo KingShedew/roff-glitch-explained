@@ -15,3 +15,13 @@ then GitHub might report somethubg like:
 even though there isn't a single actual Roff source file in the repo.
 
 If it's your repository and you want to fix the language stats, you can add a `.gitattributes` file:
+
+**</> gitattributes:**
+ `*.7z linguis-vendored`
+
+or
+
+**</> gitattributes:**
+ `*.7z binary.`
+
+This tells GitHub not to count those files toward the language breakdown.
